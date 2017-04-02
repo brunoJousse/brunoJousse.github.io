@@ -1,0 +1,382 @@
+body{
+width: 1200px;
+height: 100%;
+margin: auto !important ;
+}
+
+#color{
+	background-color: white;
+	display: inline-block;	
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#banner{
+	width: 100%;
+	height: 300px;
+}
+
+
+h1{
+	 text-align:center;
+	 color:black;
+}
+
+
+#testNav{
+	width: 100%;
+	height:5%;
+}
+
+
+#errMessage {
+	color : red;
+	text-align : center;
+	display : inline-block;
+	vertical-align : top;
+	width : 77%;
+	
+}
+
+#errMessage h1 {
+	text-align : center ; 
+	padding-bottom : 3%;
+	border-bottom : solid 3px #D6D6E4;
+}
+#errMessage p{
+	text-align : left ; 
+}
+
+#confirmMessage {
+	color : green;
+	text-align : center;
+	display : inline-block;
+	vertical-align : top;
+	width : 77%;
+
+	
+}
+
+#confirmMessage h1 {
+	text-align : center ; 
+	padding-bottom : 3%;
+	border-bottom : solid 3px #D6D6E4;
+}
+#confirmMessage p{
+	text-align : left ; 
+}
+
+
+/*----------------------------------NAV-------------------------------------*/
+
+.menu{
+	font-size:30px;
+margin-right:10px;
+padding-right:10px;
+border-right: 2px solid black; 
+color: blue;
+	
+}
+
+.menuF{
+	font-size:30px;
+margin-right:10px;
+padding-right:10px;
+color: blue;
+
+}
+
+nav{
+width:70%;
+text-align:center;
+border-bottom:2px black solid;
+margin-bottom:5px;
+}
+
+/* Menu déroulant */
+
+.niveau1, .niveau2{
+	margin:0px;
+	padding:0px;
+  	list-style:none;
+}
+
+ul ul {
+	text-align:center;
+	width:280px;
+	display: none;
+	position: absolute;
+	border: 1px solid #B0B0B0;
+}
+
+li:hover ul.niveau2, ul.niveau2:hover {
+	display:block;
+	margin-top:0px;
+	margin-left:-13px;
+}
+
+.niveau1 li {
+	list-style:none;
+	width:280px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.niveau1 li a{
+	text-align:center;
+	display:block;
+}
+
+.niveau2 li{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	border:2px black solid;
+	background:LightGray;
+	text-align:center;
+}
+
+
+.fleche{
+	width:20px;
+	height:20px;
+	display: inline-block;
+}
+
+
+/*----------------------------------FOOTER------------------------------------*/
+
+#sep{
+	height:5%;
+	width:100%;
+}
+
+
+
+#footerI{
+	height:100%;
+	width:100%;
+}
+
+footer{
+	text-align: center;
+	vertical-align: middle;
+	height: 20%;
+	width:1200px;
+	padding-top : 10px;
+}
+
+/* section */
+
+section{
+	text-align:center;
+}
+
+
+/*----------------------------------CONNEXION-------------------------------------*/
+#connexion{
+	width: 30%;
+	height: 400px;
+	border-radius: 10px;
+   	padding-top:10%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	
+}
+
+
+#entreeFormCo{
+	
+	display: inline-block;
+	vertical-align: top;
+
+
+}
+
+#entreeFormCo input {
+	width: 150px;
+}
+
+
+
+/*--------------------------------------INSCRIPTION-----------------------------------*/
+
+
+#inscription{
+	margin-top: -25px;
+	width: 30%;
+	height: 600px;
+	border-radius: 10px;
+ 	padding-top:20px;
+	padding-left:10px;		
+ 	color: black;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+
+#entreeFormIns{
+
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+
+
+#welcome{
+ 	margin-top: -23%;
+	width : 550px;
+	height: 340px;
+	margin-left: 20px;
+}
+
+
+/* creation course */
+
+
+
+
+
+#cigarette > input[type=checkbox] + label {
+	background: url("../images/noSmoke.gif") 0 0px no-repeat;
+}
+
+#cigarette > input[type=checkbox]:checked + label {
+   background: url('../images/yesSmoke.gif') 0 0px no-repeat;
+}
+
+#valise > input[type=checkbox] + label {
+	background: url('../images/noBagage.gif') 0 0px no-repeat;
+}
+
+#valise > input[type=checkbox]:checked + label {
+   background: url('../images/yesBagage.gif') 0 0px no-repeat;
+}
+
+#animaux > input[type=checkbox] + label {
+	background: url('../images/noPet.gif') 0 0px no-repeat;
+}
+
+#animaux > input[type=checkbox]:checked + label {
+   background: url('../images/yesPet.gif') 0 0px no-repeat;
+}
+
+input[type=checkbox] {
+    display:none;
+}
+
+input[type=checkbox] + label {
+    
+    height: 25px;
+    width: 25px;
+    display:inline-block;
+    vertical-align:top;
+    
+}
+
+input[type=checkbox]:checked + label {
+   height: 25px;
+   width: 25px;
+   display:inline-block;
+    vertical-align:top;
+}
+
+.vignettes{
+	height:40px;
+	width:40px;
+	display:inline-block;
+	margin-right:20px;
+}
+
+input[type=submit]{
+	color:white;
+	background:blue;
+	width:100px;
+	height:40px;
+}
+
+#reservation input[type="radio"]{
+    display:none;
+}
+
+#reservation input[type="radio"] + label
+{
+    background: white;
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
+#reservation input[type="radio"]:checked + label
+{
+    background: gray;
+    height: 40px;
+    width: 40px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
+#reservation label{
+	font-size: 30px;
+	padding: 0 0 0 0px;
+}
+
+
+/* liste Courses */
+
+.align{
+	display:inline-block;
+	vertical-align:middle;
+	font-size:23px;
+	margin-right: 10px;
+}
+
+#active{
+	background-color:LightBlue;
+}
+
+#desactive{
+	background-color:DarkGray;
+}
+
+.infoCourse{
+	width:1000px;
+	border: 2px solid black;
+	border-radius:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#listeInfo{
+	padding-left: 10%;
+}
+
+#supButton{
+	width:40px;
+	height:40px;
+}
+
+.aff_div {
+  	display:block;
+}
+
+.cache_div {
+	display :none;
+}
+
+ul{
+	list-style-type: none;
+}
+        
+.clickDiv{
+	width:100%;
+	height:40px;
+}      
+
+.inlineBlock{
+	display: inline-block;
+}
